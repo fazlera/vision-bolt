@@ -5,7 +5,7 @@
 .headerArea{
     width: 100%;
     height: 100px;
-    background-color: rgb(61, 60, 60);
+    background-color: rgb(95, 91, 91);
     color: white;
     display: flex;
     justify-content: space-around;
@@ -29,4 +29,69 @@
 .listItem:hover{
     background-color: chartreuse;
     color: black;
+    cursor: pointer;
+}
+
+.contantArea{
+    height: 100vh;
+    display: flex;
+    background-color: rgb(48, 46, 46);
+    color: wheat;
+    justify-content: space-around;
+    align-items: center;
+}
+.articalArea{
+    width: 400px;
+    margin-left: 100px;
+    padding: 15px;
+    
+}
+.suzukiLetter{
+    font-size: 40px;
+    color: aqua;
+    
+}
+.lorem{
+    font-size: 20px;
+    color: #f5f5f5;
+}
+.btn{
+    font-size: 40px;
+    padding: 10px;
+    border-style: none;
+    margin-top: 15px;
+    background-color: red;
+    color: white;
+    border-radius:10px ;
+}
+.btn:hover{
+    background-color: cyan;
+    color: black;
+    cursor: pointer;
+}
+.aboutus{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 80px;
+}
+.aboutArea{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.aboutText p{
+    font-size: 30px;
+    width: 500px;
+    
+}
+.want{
+    font-size: 50px;
+    width: 400px;
+    font-weight: bolder;
+}
+.aboutBtn{
+    padding: 5px 40px;
+    font-weight: bolder;
 }
