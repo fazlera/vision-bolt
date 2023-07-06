@@ -57,12 +57,13 @@
 }
 .btn{
     font-size: 40px;
-    padding: 10px;
+    padding: 10px 40px;
     border-style: none;
-    margin-top: 15px;
+    margin-top: 50px;
     background-color: red;
     color: white;
     border-radius:10px ;
+    font-weight: bolder;
 }
 .btn:hover{
     background-color: cyan;
@@ -137,8 +138,15 @@
     margin-top: 50px;
     border-radius: 5px;
     background-color: rgb(255, 123, 0);
+    font-weight: bolder;
+    color: aliceblue;
 }
 .boxModelArea{
     display: flex;
     justify-content: space-around;
+    align-items: center;
+}
+.chartBtn:hover{
+    background-color: greenyellow;
+    color: black;
 }
